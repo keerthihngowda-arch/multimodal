@@ -1,0 +1,57 @@
+[
+  {
+    "order_id": "ORD123",
+    "user_id": "U1",
+    "status": "delivered",
+    "item": "Wireless Headphones",
+    "delivery_date": "2026-03-20",
+    "return_window_days": 7
+  },
+  {
+    "order_id": "ORD124",
+    "user_id": "U1",
+    "status": "in_transit",
+    "item": "Running Shoes",
+    "expected_delivery": "2026-03-30",
+    "current_location": "Bangalore Hub"
+  },
+  {
+    "order_id": "ORD125",
+    "user_id": "U2",
+    "status": "delivered",
+    "item": "Smart Watch",
+    "delivery_date": "2026-03-10",
+    "return_window_days": 7
+  },
+  {
+    "order_id": "ORD126",
+    "user_id": "U3",
+    "status": "cancelled",
+    "item": "Bluetooth Speaker",
+    "cancelled_date": "2026-03-18",
+    "refund_status": "processing"
+  },
+  {
+    "order_id": "ORD127",
+    "user_id": "U4",
+    "status": "out_for_delivery",
+    "item": "Laptop Bag",
+    "expected_delivery": "2026-03-25"
+  },
+  {
+    "order_id": "ORD128",
+    "user_id": "U5",
+    "status": "returned",
+    "item": "Gaming Mouse",
+    "return_status": "picked_up",
+    "refund_status": "completed"
+  },
+  {
+    "order_id": "ORD129",
+    "user_id": "U6",
+    "status": "delayed",
+    "item": "Smartphone",
+    "expected_delivery": "2026-03-28",
+    "delay_reason": "Weather conditions"
+  }
+]

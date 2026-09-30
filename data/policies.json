@@ -1,0 +1,58 @@
+{
+  "returns": {
+    "allowed": true,
+    "window_days": 7,
+    "conditions": [
+      "Item must be unused",
+      "Original packaging required",
+      "Valid invoice required"
+    ],
+    "exceptions": [
+      "No returns on perishable items",
+      "No returns on innerwear"
+    ]
+  },
+  "refunds": {
+    "method": "original payment method",
+    "processing_time_days": 5,
+    "status_types": [
+      "processing",
+      "completed",
+      "failed"
+    ]
+  },
+  "cancellations": {
+    "allowed": true,
+    "before_shipping_only": true
+  },
+  "shipping": {
+    "standard_delivery_days": "3-5 days",
+    "delayed_conditions": [
+      "Weather issues",
+      "High demand",
+      "Logistics problems"
+    ]
+  },
+  "support": {
+    "hours": "9 AM - 6 PM IST",
+    "contact": "support@ecommerce.com"
+  },
+  "faq": [
+    {
+      "question": "How can I track my order?",
+      "answer": "You can track your order using the order ID in the app or website."
+    },
+    {
+      "question": "Can I return a used product?",
+      "answer": "No, only unused products in original packaging can be returned."
+    },
+    {
+      "question": "How long does refund take?",
+      "answer": "Refunds are processed within 5 business days."
+    },
+    {
+      "question": "Can I cancel my order?",
+      "answer": "Yes, you can cancel before the order is shipped."
+    }
+  ]
+}
